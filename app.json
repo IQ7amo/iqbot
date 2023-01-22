@@ -1,47 +1,47 @@
-name": "سەرچاوەی بۆتی زیرەك",
-  "description": "بەخێربێی بۆ سەرچاوەکەم { @VTVIT }",
+{
+  "name": "سەرچاوەی بۆتی زیرەك",
+  "description": "اللهم صلِ على محمد وآل محمد",
   "logo": "https://telegra.ph/file/480b110495d8fc09a87e9.jpg",
-  "keywords": ["plugin","modular","productivity"],
-  "repository": "https://github.com/IQ7amo/iqbot",
+  "keywords": [
+    "plugin",
+    "modular",
+    "productivity"
+  ],
+  "repository": "https://github.com/IQ7amo/iqbot/",
   "website": "#TODO",
   "success_url": "#TODO",
   "env": {
     "ALIVE_NAME": {
-      "description": "ناوی تێلەگرامت",
+      "description": "هنا ضع اسم التلجرام الخاص بك",
       "value": ""
     },
     "APP_ID": {
-      "description": "ئەپ ئایدی", 
+      "description": "هنا ضع الاب ايدي الخاص بك يتكون من 8 ارقام", 
       "value": ""
     },
     "API_HASH": {
-      "description": "ئەپی هاش",
+      "description": "هنا ضع الايبي هاش الخاص بك",
       "value": ""
     },
+    "ENV": {
+      "description": "لا تغير هذه القيمه",
+      "value": "ANYTHING"
+    },
     "STRING_SESSION": {
-      "description": " کۆدی تێرمۆکس",
+      "description": "هنا ضع كود سيشن تيليثون كود تيرمكس الخاص بك",
       "value": ""
     },
     "TG_BOT_USERNAME": {
-      "description": " یوزەری بۆت بەبێ هێما @",
+      "description": "هنا ضع معرف بوتك بدون @",
       "value": ""
     },
     "TG_BOT_TOKEN": {
-      "description": "تۆکنی بۆت",
+      "description": "هنا ضع توكن بوتك الذي صنعته",
       "value": ""
     },
-    "COMMAND_HAND_LER": {
-      "description": "دەستکاری مەکە ئەمە بۆ کارپێکردنی فەرمانە",
-      "value": "."
-    },
     "TZ": {
-      "description": "کیشوەر و شوێن دابنێ ئەگەر نازانی لێی گەڕێ",
+      "description": "المنطقه الزمنيه من القارة الخاصه بك وعاصمه بلدك يجب ان يكون اول حرف كبير",
       "value": "Asia/Baghdad",
-      "required": false
-    },
-    "UPSTREAM_REPO": {
-      "description": "مەیگۆڕە",
-      "value": "vtvit",
       "required": false
     }
   },
@@ -51,7 +51,7 @@ name": "سەرچاوەی بۆتی زیرەك",
       "version": "12"
     }
   }],
-"buildpacks": [{
+  "buildpacks": [{
     "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
   },{
     "url":"https://github.com/heroku/heroku-buildpack-google-chrome"
